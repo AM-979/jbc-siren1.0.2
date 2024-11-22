@@ -1,0 +1,218 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "OpenSauce";
+    src: url("assets/Fonts/OpenSauce/OpenSauceOne-Light.ttf");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "OpenSauce";
+    src: url("assets/Fonts/OpenSauce/OpenSauceOne-Regular.ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "OpenSauce";
+    src: url("assets/Fonts/OpenSauce/OpenSauceOne-Bold.ttf");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("assets/Fonts/Roboto/Roboto-Regular.ttf");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("assets/Fonts/Roboto/Roboto-Medium.ttf");
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "Archivo";
+    src: url("assets/Fonts/Archivo/Archivo-Bold.ttf");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Archivo";
+    src: url("assets/Fonts/Archivo/Archivo-Regular.ttf");
+    font-weight: 400;
+}
+
+.rodal-close {
+    z-index: 99;
+}
+
+@layer components {
+    .border-style {
+        @apply border border-borderLight dark:border-borderDark;
+    }
+
+    .border-style500 {
+        @apply border border-dark200 dark:border-dark500;
+    }
+
+    .border-r-style500 {
+        @apply border-r border-dark200 dark:border-dark500;
+    }
+
+    .border-l-style500 {
+        @apply border-l border-dark200 dark:border-dark500;
+    }
+
+    .border-t-style500 {
+        @apply border-t border-dark200 dark:border-dark500;
+    }
+
+    .border-b-style500 {
+        @apply border-b border-dark200 dark:border-dark500;
+    }
+
+    .border-style100 {
+        @apply border border-dark10 dark:border-dark500;
+    }
+
+    .border-r-style100 {
+        @apply border-r border-dark10 dark:border-dark500;
+    }
+
+    .border-l-style100 {
+        @apply border-l border-dark10 dark:border-dark500;
+    }
+
+    .border-t-style100 {
+        @apply border-t border-dark10 dark:border-dark500;
+    }
+
+    .border-b-style100 {
+        @apply border-b border-dark10 dark:border-dark500;
+    }
+
+    .primary-gradient-text {
+        @apply bg-gradient-to-r from-primaryBright to-tertiary w-max bg-clip-text;
+    }
+}
+
+.flip {
+    transform: rotateY(180deg);
+}
+
+input[type="checkbox"]:not(:checked) {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.bi-siren {
+background-image : url("assets/images/siren.svg");
+background-repeat: no-repeat;
+background-position: center center;
+height: 44px;
+width: 44px;
+}
+
+.speedometer .segment-value {
+transform: translate(0, -30px)
+}
+
+@layer base {
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+}
+
+.rodal-dialog {
+    padding: 0!important;
+}
+.rodal {
+    margin: 0!important;
+}
+
+.exit-validator-modal .rodal {
+    position: absolute!important;
+}
+
+.dark .dark\:text-primary, .dark .placeholder\:text-primary {
+    color: #836FFF!important;
+}
+
+.dark .text-primary {
+    color: #836FFF;
+}
+
+@media (min-width: 1540px) {
+    .text-tiny {
+        @apply text-uTiny;
+    }
+}
+
+@media (min-width: 1540px) {
+    .text-caption2 {
+        @apply text-uCaption2;
+    }
+}
+
+@media (min-width: 1540px) {
+    .text-caption1 {
+        @apply text-uCaption1;
+    }
+}
+
+@media (min-width: 1540px) {
+    .text-body {
+        @apply text-uBody;
+    }
+}
+
+@media (min-width: 1540px) {
+    .text-subtitle1 {
+        @apply text-uSubtitle1;
+    }
+}
+
+@media (min-width: 1540px) {
+    .text-subtitle2 {
+        @apply text-uSubtitle3;
+    }
+}
+
+@media (min-width: 1540px) {
+    .text-subtitle3 {
+        @apply text-uSubtitle3;
+    }
+}
+
+@media (min-width: 1540px) {
+    .text-h1 {
+        @apply text-uH1;
+    }
+}
+
+@media (min-width: 1540px) {
+    .text-h2 {
+        @apply text-uH2;
+    }
+}
+
+
+@media (min-width: 1540px) {
+    .text-h3 {
+        @apply text-uH3;
+    }
+}
+
+@media (min-width: 1540px) {
+    .text-title {
+        @apply text-uTitle;
+    }
+}
+

@@ -1,0 +1,454 @@
+{
+  "dates": {
+    "monthsShort": {
+      "january": "Jan",
+      "february": "Feb",
+      "march": "Mar",
+      "april": "Apr",
+      "may": "May",
+      "june": "Jun",
+      "july": "Jul",
+      "august": "Aug",
+      "september": "Sep",
+      "october": "Oct",
+      "november": "Nov",
+      "december": "Dec"
+    },
+    "weekdaysShort": {
+      "sunday": "Sun",
+      "monday": "Mon",
+      "tuesday": "Tue",
+      "wednesday": "Wed",
+      "thursday": "Thu",
+      "friday": "Fri",
+      "saturday": "Sat"
+    }
+  },
+  "configuration": "Configuration",
+  "executionEngine": "Execution Engine",
+  "password": "Password",
+  "12char": "( Must contain 12 characters, lowercase, uppercase, numbers, and special characters )",
+  "confirmPassword": "Confirm Password",
+  "helloUser": "Hello {{user}},",
+  "lighthouseVersion": "Lighthouse Version",
+  "lighthouseUiVersion": "Siren Version",
+  "sessionAuth": "Session Auth",
+  "configure": "Configure",
+  "continue": "Continue",
+  "comingSoon": "Coming Soon",
+  "disk": "Disk",
+  "cpu": "CPU",
+  "ram": "RAM",
+  "search": "Search...",
+  "noResultsFound": "No Results Found",
+  "diagnostic": "Diagnostic",
+  "documentation": "Documentation",
+  "device": "Device",
+  "network": "Network",
+  "fair": "fair",
+  "poor": "poor",
+  "good": "good",
+  "great": "great",
+  "node": "Node",
+  "viewDisclosures": "view important disclosures",
+  "learnMore": "Learn More",
+  "disclosure": {
+    "healthCheck": {
+      "title": "Health Check Disclosure",
+      "text1": "This is a rough guildeline and basic recommendations for hardware requirements to run a beacon node. These requirements are set for a beacon node only.",
+      "text2": "Beacon Node requires a dedicated Execution client and system requirements are not accounted for running the execution clients on the same machine. Additional resources may be required.",
+      "recommended": "The recommend resources for a running a beacon node are:",
+      "item1": "A multi-core CPU with at least 1GHZ speed",
+      "item2": "200 GB of free disk space",
+      "item3": "8GB or more of RAM"
+    },
+    "nodeSync": {
+      "title": "Sync Disclosure",
+      "text1": "A Validator Client can only participate in the network once connected to a fully synced Lighthouse Beacon Node and subsequent Execution Client.",
+      "text2": "It is recommended to wait until both of these clients have fully downloaded the chain history and are showing the \"synced\" status. It is however possible to view out-of-date validator metrics whilst the nodes sync and it is therefore safe to progress from this screen."
+    },
+    "validator": {
+      "title": "Validator Returns Disclosure",
+      "text1": "The returns of a validator are based on the local performance of the node, the network as a whole and also the current active validators on the network.",
+      "text2": "Therefore predictions of future return in this application should be taken as a rough guide as these factors cannot be predicted in advance."
+    },
+    "exitValidator": {
+      "title": "Validator Exit Disclosure",
+      "text1": "A validator cannot rejoin the network once it voluntarily exits.",
+      "text2": "We advise you to proceed with caution when completing the voluntary exit action, as it is a serious matter that may not be undone."
+    }
+  },
+  "uptime": "Uptime",
+  "networkUnavailable": "Network Unavailable",
+  "outOfSync": "Out of Sync",
+  "inSync": "In Sync",
+  "nodesSyncing": "Nodes <0></0> Syncing",
+  "connectedStatus": "Connected {{status}}",
+  "utilization": "{{percent}}% Utilization",
+  "healthCheck": "Health Check",
+  "nodes": "Nodes",
+  "syncing": "Syncing",
+  "synced": "Synced",
+  "noConnection": "No Connection",
+  "live": "Live",
+  "slasher": "Slasher",
+  "connected": "Connected",
+  "disconnect": "Disconnect",
+  "balance": "Balance",
+  "rewards": "Rewards",
+  "income": "Income",
+  "proposed": "Proposed",
+  "attested": "Attested",
+  "aggregated": "Aggregated",
+  "in": "In",
+  "effectiveness": "Effectiveness",
+  "status": "status",
+  "edit": "Edit",
+  "account": "Account",
+  "hourly": "hourly",
+  "daily": "daily",
+  "critical": "Critical",
+  "errors": "Errors",
+  "monthly": "monthly",
+  "weekly": "weekly",
+  "total": "Total",
+  "validators": "Validators",
+  "validatorBalance": "Validator Balance",
+  "validatorLegend": "Validator Balance Legend",
+  "viewAll": "View All",
+  "validatorGraffiti": "Validator Graffiti",
+  "graffitiGoesHere": "Graffiti goes here",
+  "nodesCachingData": "Node caching data...",
+  "thisCouldTakeTime": "This could take approximately 20 minutes.",
+  "makeSelection": "make selection",
+  "lighthouseVersionError": "Lighthouse version {{major}}.{{minor}}.{{patch}} is required. Please update dependency and retry.",
+  "hardwareInfo": {
+    "usage": "Hardware Usage",
+    "diagnostics": "Device Diagnostics"
+  },
+  "logInfo": {
+    "logs": "Logs",
+    "warnings": "Warnings",
+    "validatorLogs": "Validator Logs",
+    "criticalLogs": "Critical",
+    "comingSoon": "Logs Coming Soon"
+  },
+  "alertInfo": {
+    "alerts": "Alerts",
+    "process": "Node / Validator: {{status}}",
+    "peerCount": "NODE: {{count}} Connected peers",
+    "participation": "Network: Participation rate below {{percent}}%"
+  },
+  "validatorStatus": {
+    "unknown": "Unknown",
+    "active": "Active",
+    "queue": "Queue",
+    "success": "Success",
+    "active-slash": "active-slash",
+    "active_ongoing": "Active Ongoing",
+    "pending_initialized": "Init Pending",
+    "pending_queued": "Queue Pending",
+    "active_exiting": "Active Exiting",
+    "active_slashed": "Active Slashed",
+    "exited_slashed": "Exited Slashed",
+    "exited_unslashed": "Exited Unslashed",
+    "withdrawal_possible": "Withdrawal Possible",
+    "withdrawal_done": "Withdrawal Done",
+    "pending": "Pending",
+    "exited": "Exited",
+    "withdrawal": "Withdrawal"
+  },
+  "accountEarnings": {
+    "balanceTooltip": "The displayed balance is the accumulated validator rewards and does not include any balance withdrawn during reward payments.",
+    "annualized": "annualized",
+    "earnings": "Earnings",
+    "chooseCurrency": "Choose Currency",
+    "currentRate": "Current Rate",
+    "totalBalance": "Total Balance"
+  },
+  "networkStats": {
+    "processUptime": "Process Uptime",
+    "blockBehind": "Blocks behind",
+    "connectedPeers": "Connected Peers",
+    "participationRate": "Participation Rate",
+    "toolTips": {
+      "peerCount": "The number of peers connected to the beacon node",
+      "vcTime": "The time that validator client has been running",
+      "bnTime": "The time that the beacon node has been running",
+      "slotBehind": "Number of slots the beacon node is behind. This indicates if the beacon node is at the head of the chain",
+      "participation": "The percentage of active validators that performed their duties last epoch.",
+      "noData": "Insufficient Data"
+    }
+  },
+  "sidebar": {
+    "dashboard": "Dashboard",
+    "validatorManagement": "Validator Management",
+    "logs": "Logs",
+    "grafana": "Grafana",
+    "settings": "Settings",
+    "theme": "Theme"
+  },
+  "nodeSync": {
+    "syncOverview": "Syncing <0></0> overview",
+    "syncWarning": "You are currently syncing to the Ethereum Geth and Beacon node. This may take a while..."
+  },
+  "vcHealthCheck": {
+    "networkName": "Name: {{network}}",
+    "natOpen": "NAT Open",
+    "natClosed": "NAT Closed",
+    "title": "Validator Health Check",
+    "diagnosticOverview": "Diagnostics <0></0> overview",
+    "hasDiskSpace": "Disk has the required 240GB for the full sync.",
+    "noDiskSpace": "Disk does not have the required 240GB for the full sync.",
+    "cpuRecommendation": "2.4GHZ is recommended for CPU.",
+    "hasCpuReq": "CPU has recommended frequency.",
+    "healthCondition": "HEALTH CHECK — in {{status}} Condition.",
+    "checkLowRam": "Please ensure your RAM is sufficient prior to start validating.",
+    "hasRam": "Node has sufficient memory."
+  },
+  "appDescription": {
+    "developedBy": "Developed & Secured By:",
+    "builtOn": "Built on:",
+    "rustLanguage": "Rust Programming Language",
+    "validatorClient": "Validator Client"
+  },
+  "initScreen": {
+    "initializing": "Initializing",
+    "fetchingEndpoints": "Fetching saved api endpoints",
+    "connectingBeacon": "Attempting to connect to Beacon Node",
+    "connectingValidator": "Attempting to connect to Validator Client",
+    "fetchBeaconSync": "Fetching beacon sync status"
+  },
+  "configScreen": {
+    "configConnection": "Configure Connection",
+    "basicSettings": "basic settings",
+    "advanceSettings": "advanced settings",
+    "advanceSettingsToolTip": "Setup configuration settings for nodes using different protocols or IP addresses",
+    "apiToken": "Api Token",
+    "autoConnectToolTip": "Store device data in local storage and allow device to connect automatically.",
+    "apiTokenToolTip": "This is the token emitted by the validator client. Its located by default at: ~/.lighthouse/<network>/validators/api-token.txt",
+    "deviceName": "Device Name",
+    "userNameLabel": "What should I call you?",
+    "userNamePlaceholder": "Name",
+    "autoConnect": "Save Data Auto Connect"
+  },
+  "protocolInput": {
+    "ipBnToolTip": "The IP address of the beacon node",
+    "ipVCToolTip": "The IP address of the validator client",
+    "httpProtocol": "Protocol (http/https)",
+    "httpToolTip": "The type of transport, http is default",
+    "bNPortToolTip": "The port number of the Beacon Node HTTP API (5052 default). Beacon node should be configured with the --http or --gui flag",
+    "vCPortToolTip": "The port number of the Validator Client HTTP API (5062 default).",
+    "vcAddress": "VC Address",
+    "beaconAddress": "Beacon Address",
+    "beaconPort": "BN Port",
+    "vcPort": "VC Port"
+  },
+  "success": {
+    "validatorExit": "Validator exit submitted successfully. Kindly wait while exit is being processed.",
+    "blsExecution": "BLS Change Execution submitted. Kindly wait while the execution is being processed."
+  },
+  "error": {
+    "sessionAuth": {
+      "invalidPassword": "Invalid Session Password",
+      "length": "Password must be at least 12 characters",
+      "passwordMatch": "Confirmation must match password",
+      "confirmationRequired": "Password confirmation is required",
+      "lowercaseRequired": "Password must contain at least one lowercase letter",
+      "uppercaseRequired": "Password must contain at least one uppercase letter",
+      "numberRequired": "Password must contain at least one number",
+      "specialCharRequired": "Password must contain at least one special character"
+    },
+    "invalidJson": "Invalid JSON data. Please ensure to use correct format.",
+    "executionFailure": "Execution broadcast failed. Please ensure all fields and signature are valid.",
+    "networkError": "{{type}} NODE NETWORK ERROR: Make sure your IP is correct and/or CORS is correctly configured. Use --http-allow-origin \"*\" in {{type}} config",
+    "unknownError": "Unknown {{type}} NODE error.",
+    "validatorInfo": "Error Loading Validator Info...",
+    "missingValidatorData": "Invalid Validator Node Data",
+    "apiTokenRequired": "Api Token is required",
+    "invalidApiToken": "Invalid Api Token",
+    "beaconDataRequired": "Beacon Node requires protocol, address and port",
+    "validatorDataRequired": "Validator Node requires protocol, address and port",
+    "unableToSignExit": "Unable to sign voluntary exit message",
+    "invalidExit": "Invalid voluntary exit",
+    "userName": {
+      "maxLength": "Username cannot exceed 14 characters",
+      "required": "User name is required"
+    }
+  },
+  "settings": {
+    "general": "General",
+    "currentVersion": "Current Version",
+    "developedBy": "Developed & Maintained By",
+    "updates": {
+      "nonAvailable": "No Updates Available"
+    },
+    "links": {
+      "website": "Website",
+      "documentation": "Documentation"
+    }
+  },
+  "validatorManagement": {
+    "search": "search",
+    "title": "Validator Management",
+    "overview": "Overview",
+    "day": "Day",
+    "effectiveness": {
+      "targetVote": "Target Vote",
+      "headVote": "Head Vote",
+      "overallTargetDescription": "Average accuracy of all validator finality votes indicating what the validators see as the first block in the current epoch",
+      "overallHeadHitDescription": "Average accuracy of all validator votes of the block the validator sees at the head of the chain",
+      "targetDescription": "Average accuracy of selected validator finality votes indicating what the validators see as the first block in the current epoch",
+      "headHitDescription": "Average accuracy of selected validator votes of the block the validator sees at the head of the chain"
+    },
+    "summary": {
+      "active": "active",
+      "totalBalance": "Total Balance",
+      "locked": "Locked",
+      "totalIncome": "Total Income",
+      "queue": "Queue",
+      "networkValidators": "Network Validators",
+      "avgEffectiveness": "Avg Effectiveness"
+    },
+    "actions": {
+      "deposit": "Deposit",
+      "add": "Add",
+      "depositFunds": "Deposit Funds",
+      "backupKeys": "Backup Keys",
+      "stopValidator": "Stop Validator",
+      "exportValidator": "Export Validator",
+      "exitValidator": "Exit Validator",
+      "withdrawValidator": "Withdraw Validator"
+    },
+    "details": {
+      "validatorBalance": "Validator Balance",
+      "index": "Index",
+      "balance": "Balance",
+      "slotsBehind": "Slots Behind",
+      "exploreBeaconChai": "Explore more on beaconchai.in dashbaoard",
+      "explore": "Explore",
+      "status": "Status",
+      "deposit": "Deposit",
+      "pending": "Pending",
+      "active": "Active",
+      "exit": "Exit"
+    }
+  },
+  "alert": {
+    "type": {
+      "nodeValidator": "Node / Validator",
+      "network": "Network"
+    },
+    "natClosedStatus": "{{type}}: Nat status is closed",
+    "peerCountLow": "{{type}}: Peer count extremely low",
+    "peerCountMedium": "{{type}}: Peer count reaching low levels"
+  },
+  "tooltip": {
+    "ethEstimate": "Estimated {{time}} ETH earnings of all validators under current network and device conditions.",
+    "ethTotal": "Total ETH earnings of all validators",
+    "fiatEstimate": "Estimated {{time}} earnings converted to selected fiat currency exchange rate.",
+    "fiatTotal": "Total earnings converted to selected fiat currency exchange rate.",
+    "annualApr": "Combined total Annual Percentage Rate estimate."
+  },
+  "networkErrorModal": {
+    "title": "Network Error",
+    "beaconAndValidator": "Beacon Node and Validator Client",
+    "beaconNode": "Beacon Node",
+    "validatorClient": "Validator Client",
+    "affectedNetworks": "Siren failed to maintain connection to the designated <0>{{network}}</0>.",
+    "reconfigureOrContact": "Please review and update configuration settings. If this issue persists please contact our team in <0>discord</0>."
+  },
+  "sessionConfiguration": {
+    "prevStep": "Configuration",
+    "currentStep": "Session Auth",
+    "title": "Session Authentication",
+    "description": "Protect your account with an optional session password. This extra layer of security ensures that only you have access to your account, even if someone gains access to your device. If no password is set, Siren will automatically default back to the api-token you set in your configuration settings."
+  },
+  "sessionAuthModal": {
+    "title": "Session Authentication",
+    "passwordPrompt": "To ensure the safety of your account, password authentication is required to complete this action. Please confirm your password to proceed. Please be aware that you have a maximum of three attempts.",
+    "failedResponse": "Authentication failed. Please return to the configuration settings to re-enter your validator credentials.",
+    "configSettings": "Configuration Settings"
+  },
+  "blsExecution": {
+    "tooltip": "Validator requires BLS to Execution address conversion",
+    "warning": {
+      "text": "This validator is using old BLS withdrawal credentials. It will not receive regular partial withdrawals and cannot be exited. Please convert the withdrawal address to an execution address.",
+      "learnMore": "Learn more about BLS to Execution here.",
+      "cta": "Convert withdrawal address.",
+      "processingText": "The BLS execution change has been processed but may take some time to be executed by the beacon node. Kindly wait until the validator status reflects the changes. Thank you for your understanding."
+    },
+    "modal": {
+      "title": "BLS to Execution Change",
+      "subTitle": "Validator <0></0> Update",
+      "cta": "Execution Change",
+      "description": "Please enter your BLS Change JSON. Submitting this request will allow the beacon node to voluntarily deposit partial rewards and execute validator exits to a designated withdrawal address. This action is sensitive, please exercise caution and ensure that you have access to your withdrawal address before proceeding.",
+      "followLink": "For additional information, please follow the <0>link</0>."
+    }
+  },
+  "basicValidatorMetrics": {
+    "ethRate": "ETH Rate",
+    "validator": "Validator",
+    "balance": "Balance"
+  },
+  "validatorInfoHeader": {
+    "viewOnBeaconChain": "View on BeaconChai.in",
+    "validatorBalance": "Validator <0></0> Balance"
+  },
+  "validatorExit": {
+    "exit": "Exit Validator",
+    "management": "Validator <0></0> Management",
+    "warning": "This action is irreversible and will cause your validator to get locked in to exited state pending withdrawal without the ability to start validator again. This action may take time, kindly wait until the validator status reflects the changes.",
+    "learnMore": "Learn more about validator states in various phases here.",
+    "iAccept": "I understand and Accept"
+  },
+  "logs": {
+    "title": "Lighthouse Logs",
+    "service": "Service",
+    "autoRefresh": "Auto-Refresh",
+    "searchLogs": "Search Logs",
+    "noLogsFound": "No Logs Found",
+    "tooltips": {
+      "combinedCritical": "Combined hourly rate of critical level beacon and validator logs",
+      "validatorCritical": "Hourly rate  of critical level validator logs",
+      "beaconCritical": "Hourly rate of critical level beacon logs",
+      "combinedError": "Combined hourly rate of error level beacon and validator logs",
+      "validatorError": "Hourly rate of error level validator logs",
+      "beaconError": "Hourly rate of error level beacon logs",
+      "combinedWarning": "Combined hourly rate of warning level beacon and validator logs",
+      "validatorWarning": "Hourly rate of warning level validator logs",
+      "beaconWarning": "Hourly rate of warning level beacon logs"
+    }
+  },
+  "validatorEdit": {
+    "title": "Edit Validator",
+    "label": "Validator Name",
+    "cta": "Update Validator",
+    "successUpdate": "Validator name updated successfully!",
+    "nameRequired": "Name is required",
+    "nameLimit": "Name cannot exceed 19 characters",
+    "graffiti": {
+      "unexpectedError": "An unexpected error occurred while updating graffiti. Please try again.",
+      "successUpdate": "Successfully updated validator graffiti",
+      "errorUpdate": "Unable to update graffiti, be sure that \"--graffiti-file\" flag is not set"
+    }
+  },
+  "deviceSelect": {
+    "label": "Select Device",
+    "confirmText": "Are you sure you want to remove <0>{{target}}</0> device?",
+    "confirmCta": "Remove Device",
+    "addDevice": "Add Device",
+    "selectDevice": "Select stored device"
+  },
+  "alertMessages": {
+    "all": "All",
+    "severe": "Severe",
+    "warning": "Warning",
+    "fair": "Fair",
+    "beaconNotSync": "Beacon Node is not in sync",
+    "ethClientNotSync": "Ethereum Client is not in sync",
+    "excessiveWarningLogs": "Unusual amount of warning logs detected",
+    "critLog": "CRITICAL ERROR: {{message}}",
+    "errorLog": "ERROR: {{message}}"
+  }
+}

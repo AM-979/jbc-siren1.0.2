@@ -18,6 +18,6 @@ ENV NODE_ENV=production
 RUN yarn build
 
 # STAGE 2
-FROM nginx:alpine AS production
+FROM nginx:1.27.2-alpine-slim AS production
 
 COPY --from=builder /app/build/ /usr/share/nginx/html/

@@ -41,7 +41,7 @@ const ValidatorSummary = () => {
             {t('validatorManagement.summary.locked')}
           </Typography>
           <Typography isBold type='text-caption1'>
-            {totalBalance.toFixed(3)} ETH
+            {totalBalance.toFixed(3)} JBC
           </Typography>
         </div>
       </div>

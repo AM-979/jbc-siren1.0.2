@@ -13,7 +13,7 @@ export const selectBnChain = selector({
     switch (DEPOSIT_CHAIN_ID) {
       case '5':
         return Network.Goerli
-      case '1':
+      case '8899':
         return Network.Mainnet
       case '4242':
         return Network.LocalTestnet

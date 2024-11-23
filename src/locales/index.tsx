@@ -1,5 +1,6 @@
 import translationEN_US from './translations/en-US.json'
-import translationES from './translations/es.json'
+import translationES from './translations/es.json';
+import translationTH from './translations/th-TH.json'
 
 export const index: any = {
   'en-US': {
@@ -7,6 +8,9 @@ export const index: any = {
   },
   'es-ES': {
     translation: translationES,
+  },
+  'th-TH': { 
+    translation: translationTH,
   },
 }
 

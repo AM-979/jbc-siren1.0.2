@@ -1,0 +1,454 @@
+{
+    "dates": {
+        "monthsShort": {
+            "january": "ม.ค.",
+            "february": "ก.พ.",
+            "march": "มี.ค.",
+            "april": "เม.ย.",
+            "may": "พ.ค.",
+            "june": "มิ.ย.",
+            "july": "ก.ค.",
+            "august": "ส.ค.",
+            "september": "ก.ย.",
+            "october": "ต.ค.",
+            "november": "พ.ย.",
+            "december": "ธ.ค."
+        },
+        "weekdaysShort": {
+            "sunday": "อา.",
+            "monday": "จ.",
+            "tuesday": "อ.",
+            "wednesday": "พ.",
+            "thursday": "พฤ.",
+            "friday": "ศ.",
+            "saturday": "ส."
+        }
+    },
+    "configuration": "การตั้งค่า",
+    "executionEngine": "เครื่องยนต์การดำเนินการ",
+    "password": "รหัสผ่าน",
+    "12char": "(ต้องมี 12 ตัวอักษร ประกอบด้วยตัวพิมพ์เล็ก ตัวพิมพ์ใหญ่ ตัวเลข และอักขระพิเศษ)",
+    "confirmPassword": "ยืนยันรหัสผ่าน",
+    "helloUser": "สวัสดี {{user}}",
+    "lighthouseVersion": "รุ่นของ Lighthouse",
+    "lighthouseUiVersion": "รุ่นของ Siren",
+    "sessionAuth": "การยืนยันเซสชั่น",
+    "configure": "ตั้งค่า",
+    "continue": "ดำเนินการต่อ",
+    "comingSoon": "เร็วๆ นี้",
+    "disk": "ดิสก์",
+    "cpu": "CPU",
+    "ram": "RAM",
+    "search": "ค้นหา...",
+    "noResultsFound": "ไม่พบผลลัพธ์",
+    "diagnostic": "การวินิจฉัย",
+    "documentation": "เอกสารอ้างอิง",
+    "device": "อุปกรณ์",
+    "network": "เครือข่าย",
+    "fair": "ปานกลาง",
+    "poor": "แย่",
+    "good": "ดี",
+    "great": "ยอดเยี่ยม",
+    "node": "โหนด",
+    "viewDisclosures": "ดูการเปิดเผยข้อมูลที่สำคัญ",
+    "learnMore": "เรียนรู้เพิ่มเติม",
+    "disclosure": {
+        "healthCheck": {
+            "title": "ข้อเปิดเผยการตรวจสุขภาพ",
+            "text1": "นี่คือคำแนะนำเบื้องต้นและข้อแนะนำพื้นฐานสำหรับข้อกำหนดของฮาร์ดแวร์ในการรัน Beacon Node ข้อกำหนดเหล่านี้ถูกตั้งไว้สำหรับ Beacon Node เท่านั้น",
+            "text2": "Beacon Node ต้องการ Execution client เฉพาะและข้อกำหนดของระบบไม่ได้คำนึงถึงการรัน Execution client บนเครื่องเดียวกัน อาจจะต้องการทรัพยากรเพิ่มเติม",
+            "recommended": "ทรัพยากรที่แนะนำสำหรับการรัน Beacon Node ได้แก่:",
+            "item1": "CPU หลายคอร์ที่มีความเร็วอย่างน้อย 1 GHz",
+            "item2": "พื้นที่ดิสก์ว่าง 200 GB",
+            "item3": "RAM อย่างน้อย 8GB หรือมากกว่า"
+        },
+        "nodeSync": {
+            "title": "ข้อเปิดเผยการซิงค์",
+            "text1": "Validator Client สามารถเข้าร่วมในเครือข่ายได้ก็ต่อเมื่อเชื่อมต่อกับ Beacon Node ที่ซิงค์เต็มที่และ Execution Client ที่เชื่อมต่อแล้ว",
+            "text2": "แนะนำให้รอจนกว่าทั้งสอง client จะดาวน์โหลดประวัติของเชนเสร็จสมบูรณ์และแสดงสถานะว่า \"ซิงค์แล้ว\" อย่างไรก็ตามสามารถดูเมตริกของ validator ที่ล้าสมัยในขณะที่ node กำลังซิงค์ และยังสามารถดำเนินการต่อจากหน้าจอนี้ได้"
+        },
+        "validator": {
+            "title": "ข้อเปิดเผยผลตอบแทนของ Validator",
+            "text1": "ผลตอบแทนของ validator ขึ้นอยู่กับประสิทธิภาพของ node ในท้องถิ่น เครือข่ายโดยรวม และ validator ที่เปิดใช้งานในเครือข่ายในขณะนั้น",
+            "text2": "ดังนั้นการทำนายผลตอบแทนในอนาคตในแอปพลิเคชันนี้ควรถูกพิจารณาเป็นแนวทางเบื้องต้น เนื่องจากปัจจัยเหล่านี้ไม่สามารถทำนายล่วงหน้าได้"
+        },
+        "exitValidator": {
+            "title": "ข้อเปิดเผยการออกจาก Validator",
+            "text1": "Validator ไม่สามารถกลับมาเข้าร่วมเครือข่ายได้หลังจากออกโดยสมัครใจ",
+            "text2": "ขอแนะนำให้ดำเนินการด้วยความระมัดระวังเมื่อทำการออกจาก validator โดยสมัครใจ เนื่องจากเป็นเรื่องที่ร้ายแรงและไม่สามารถย้อนกลับได้"
+        }
+    },
+    "uptime": "เวลาทำงาน",
+    "networkUnavailable": "เครือข่ายไม่สามารถใช้งานได้",
+    "outOfSync": "ซิงค์ไม่เสร็จ",
+    "inSync": "ซิงค์แล้ว",
+    "nodesSyncing": "กำลังซิงค์ Node <0></0>",
+    "connectedStatus": "เชื่อมต่อ {{status}}",
+    "utilization": "การใช้งาน {{percent}}%",
+    "healthCheck": "ตรวจสุขภาพ",
+    "nodes": "Node",
+    "syncing": "กำลังซิงค์",
+    "synced": "ซิงค์แล้ว",
+    "noConnection": "ไม่มีการเชื่อมต่อ",
+    "live": "สด",
+    "slasher": "Slasher",
+    "connected": "เชื่อมต่อ",
+    "disconnect": "ตัดการเชื่อมต่อ",
+    "balance": "ยอดคงเหลือ",
+    "rewards": "รางวัล",
+    "income": "รายได้",
+    "proposed": "ที่เสนอมาน",
+    "attested": "ที่ยืนยัน",
+    "aggregated": "ที่รวมแล้ว",
+    "in": "ใน",
+    "effectiveness": "ความมีประสิทธิภาพ",
+    "status": "สถานะ",
+    "edit": "แก้ไข",
+    "account": "บัญชี",
+    "hourly": "รายชั่วโมง",
+    "daily": "รายวัน",
+    "critical": "วิกฤต",
+    "errors": "ข้อผิดพลาด",
+    "monthly": "รายเดือน",
+    "weekly": "รายสัปดาห์",
+    "total": "ทั้งหมด",
+    "validators": "Validator",
+    "validatorBalance": "ยอดคงเหลือของ Validator",
+    "validatorLegend": "ตำนานยอดคงเหลือของ Validator",
+    "viewAll": "ดูทั้งหมด",
+    "validatorGraffiti": "Graffiti ของ Validator",
+    "graffitiGoesHere": "Graffiti ใส่ที่นี่",
+    "nodesCachingData": "Node กำลังแคชข้อมูล...",
+    "thisCouldTakeTime": "อาจใช้เวลาประมาณ 20 นาที",
+    "makeSelection": "เลือกตัวเลือก",
+    "lighthouseVersionError": "ต้องใช้เวอร์ชัน Lighthouse {{major}}.{{minor}}.{{patch}} กรุณาอัปเดตการพึ่งพาและลองใหม่",
+    "hardwareInfo": {
+        "usage": "การใช้งานฮาร์ดแวร์",
+        "diagnostics": "การวินิจฉัยอุปกรณ์"
+    },
+    "logInfo": {
+        "logs": "บันทึก",
+        "warnings": "คำเตือน",
+        "validatorLogs": "บันทึกของตัวตรวจสอบ",
+        "criticalLogs": "วิกฤต",
+        "comingSoon": "บันทึกจะมาเร็วๆ นี้"
+    },
+    "alertInfo": {
+        "alerts": "การแจ้งเตือน",
+        "process": "โหนด / ตัวตรวจสอบ: {{status}}",
+        "peerCount": "โหนด: {{count}} เพื่อนที่เชื่อมต่อ",
+        "participation": "เครือข่าย: อัตราการเข้าร่วมต่ำกว่า {{percent}}%"
+    },
+    "validatorStatus": {
+        "unknown": "ไม่ทราบ",
+        "active": "กำลังทำงาน",
+        "queue": "คิว",
+        "success": "สำเร็จ",
+        "active-slash": "กำลังทำงาน - ถูกตัดสิทธิ์",
+        "active_ongoing": "กำลังทำงาน - ยังดำเนินต่อไป",
+        "pending_initialized": "รอดำเนินการเริ่มต้น",
+        "pending_queued": "รอดำเนินการในคิว",
+        "active_exiting": "กำลังออกจากระบบ",
+        "active_slashed": "กำลังทำงาน - ถูกตัดสิทธิ์",
+        "exited_slashed": "ออกจากระบบ - ถูกตัดสิทธิ์",
+        "exited_unslashed": "ออกจากระบบ - ไม่ถูกตัดสิทธิ์",
+        "withdrawal_possible": "การถอนเป็นไปได้",
+        "withdrawal_done": "การถอนเสร็จสิ้น",
+        "pending": "รอดำเนินการ",
+        "exited": "ออกจากระบบ",
+        "withdrawal": "การถอน"
+    },
+    "accountEarnings": {
+        "balanceTooltip": "ยอดคงเหลือที่แสดงเป็นรางวัลที่สะสมจากตัวตรวจสอบ (validator) และไม่รวมยอดที่ถอนระหว่างการจ่ายรางวัล",
+        "annualized": "ประจำปี",
+        "earnings": "รายได้",
+        "chooseCurrency": "เลือกสกุลเงิน",
+        "currentRate": "อัตราปัจจุบัน",
+        "totalBalance": "ยอดรวม"
+    },
+    "networkStats": {
+        "processUptime": "เวลาการทำงานของกระบวนการ",
+        "blockBehind": "บล็อกที่ตามหลัง",
+        "connectedPeers": "เพื่อนร่วมเครือข่ายที่เชื่อมต่อ",
+        "participationRate": "อัตราการมีส่วนร่วม",
+        "toolTips": {
+            "peerCount": "จำนวนเพื่อนร่วมเครือข่ายที่เชื่อมต่อกับบีคอนโหนด",
+            "vcTime": "เวลาที่ตัวตรวจสอบ (validator client) กำลังทำงาน",
+            "bnTime": "เวลาที่บีคอนโหนดกำลังทำงาน",
+            "slotBehind": "จำนวนช่องที่บีคอนโหนดตามหลังอยู่ ซึ่งแสดงให้เห็นว่าบีคอนโหนดอยู่ที่หัวของเชนหรือไม่",
+            "participation": "เปอร์เซ็นต์ของตัวตรวจสอบที่ทำหน้าที่ในรอบที่ผ่านมา",
+            "noData": "ข้อมูลไม่เพียงพอ"
+        }
+    },
+    "sidebar": {
+        "dashboard": "แดชบอร์ด",
+        "validatorManagement": "การจัดการตัวตรวจสอบ",
+        "logs": "บันทึก",
+        "grafana": "กราฟานา",
+        "settings": "การตั้งค่า",
+        "theme": "ธีม"
+    },
+    "nodeSync": {
+        "syncOverview": "ภาพรวมการซิงค์ <0></0>",
+        "syncWarning": "ขณะนี้คุณกำลังซิงค์กับ Ethereum Geth และ Beacon node ซึ่งอาจใช้เวลาสักครู่..."
+    },
+    "vcHealthCheck": {
+        "networkName": "ชื่อ: {{network}}",
+        "natOpen": "NAT เปิด",
+        "natClosed": "NAT ปิด",
+        "title": "การตรวจสุขภาพ Validator",
+        "diagnosticOverview": "ภาพรวมการตรวจสอบ <0></0>",
+        "hasDiskSpace": "ดิสก์มีพื้นที่ 240GB ที่จำเป็นสำหรับการซิงค์เต็มรูปแบบ.",
+        "noDiskSpace": "ดิสก์ไม่มีพื้นที่ 240GB ที่จำเป็นสำหรับการซิงค์เต็มรูปแบบ.",
+        "cpuRecommendation": "แนะนำให้ใช้ CPU ที่ความเร็ว 2.4GHz.",
+        "hasCpuReq": "CPU มีความถี่ที่แนะนำ.",
+        "healthCondition": "การตรวจสุขภาพ — อยู่ในสภาพ {{status}}.",
+        "checkLowRam": "กรุณาตรวจสอบให้แน่ใจว่า RAM ของคุณเพียงพอก่อนเริ่มการตรวจสอบ.",
+        "hasRam": "โนดมีหน่วยความจำเพียงพอ."
+    },
+    "appDescription": {
+        "developedBy": "พัฒนาและรักษาความปลอดภัยโดย:",
+        "builtOn": "สร้างบน:",
+        "rustLanguage": "ภาษาโปรแกรม Rust",
+        "validatorClient": "Validator Client"
+    },
+    "initScreen": {
+        "initializing": "กำลังเริ่มต้น",
+        "fetchingEndpoints": "กำลังดึงข้อมูล API ที่บันทึกไว้",
+        "connectingBeacon": "กำลังพยายามเชื่อมต่อกับ Beacon Node",
+        "connectingValidator": "กำลังพยายามเชื่อมต่อกับ Validator Client",
+        "fetchBeaconSync": "กำลังดึงสถานะการซิงค์ของ Beacon"
+    },
+    "configScreen": {
+        "configConnection": "ตั้งค่าการเชื่อมต่อ",
+        "basicSettings": "การตั้งค่าพื้นฐาน",
+        "advanceSettings": "การตั้งค่าขั้นสูง",
+        "advanceSettingsToolTip": "ตั้งค่าการกำหนดค่าสำหรับโหนดที่ใช้โปรโตคอลหรือที่อยู่ IP ที่แตกต่างกัน",
+        "apiToken": "API Token",
+        "autoConnectToolTip": "บันทึกข้อมูลอุปกรณ์ในที่เก็บข้อมูลในเครื่องและอนุญาตให้อุปกรณ์เชื่อมต่อโดยอัตโนมัติ",
+        "apiTokenToolTip": "นี่คือตัวโทเค็นที่ถูกส่งออกโดย validator client ซึ่งจะอยู่ที่: ~/.lighthouse/<network>/validators/api-token.txt",
+        "deviceName": "ชื่ออุปกรณ์",
+        "userNameLabel": "ฉันควรเรียกคุณว่าอะไร?",
+        "userNamePlaceholder": "ชื่อ",
+        "autoConnect": "บันทึกข้อมูลและเชื่อมต่ออัตโนมัติ"
+    },
+    "protocolInput": {
+        "ipBnToolTip": "ที่อยู่ IP ของ Beacon Node",
+        "ipVCToolTip": "ที่อยู่ IP ของ Validator Client",
+        "httpProtocol": "โปรโตคอล (http/https)",
+        "httpToolTip": "ประเภทของการขนส่งข้อมูล, http เป็นค่าเริ่มต้น",
+        "bNPortToolTip": "หมายเลขพอร์ตของ Beacon Node HTTP API (ค่าเริ่มต้น 5052). Beacon Node ควรตั้งค่าด้วย --http หรือ --gui flag",
+        "vCPortToolTip": "หมายเลขพอร์ตของ Validator Client HTTP API (ค่าเริ่มต้น 5062).",
+        "vcAddress": "ที่อยู่ VC",
+        "beaconAddress": "ที่อยู่ Beacon",
+        "beaconPort": "พอร์ต BN",
+        "vcPort": "พอร์ต VC"
+    },
+    "success": {
+        "validatorExit": "การออกจาก Validator ถูกส่งเรียบร้อยแล้ว กรุณารอขณะกำลังดำเนินการออกจากระบบ.",
+        "blsExecution": "การเปลี่ยนแปลง BLS ถูกส่งเรียบร้อยแล้ว กรุณารอขณะกำลังดำเนินการการเปลี่ยนแปลง."
+    },
+"error": {
+  "sessionAuth": {
+    "invalidPassword": "รหัสผ่านเซสชันไม่ถูกต้อง",
+    "length": "รหัสผ่านต้องมีความยาวอย่างน้อย 12 ตัวอักษร",
+    "passwordMatch": "การยืนยันรหัสผ่านต้องตรงกับรหัสผ่าน",
+    "confirmationRequired": "ต้องการการยืนยันรหัสผ่าน",
+    "lowercaseRequired": "รหัสผ่านต้องประกอบด้วยตัวอักษรพิมพ์เล็กอย่างน้อย 1 ตัว",
+    "uppercaseRequired": "รหัสผ่านต้องประกอบด้วยตัวอักษรพิมพ์ใหญ่อย่างน้อย 1 ตัว",
+    "numberRequired": "รหัสผ่านต้องประกอบด้วยตัวเลขอย่างน้อย 1 ตัว",
+    "specialCharRequired": "รหัสผ่านต้องประกอบด้วยอักขระพิเศษอย่างน้อย 1 ตัว"
+  },
+  "invalidJson": "ข้อมูล JSON ไม่ถูกต้อง กรุณาตรวจสอบการใช้รูปแบบที่ถูกต้อง",
+  "executionFailure": "การถ่ายทอดผลการดำเนินการล้มเหลว กรุณาตรวจสอบให้แน่ใจว่า ทุกฟิลด์และลายเซ็นถูกต้อง",
+  "networkError": "{{type}} NODE NETWORK ERROR: กรุณาตรวจสอบว่า IP ของคุณถูกต้อง และ/หรือ CORS ถูกตั้งค่าอย่างถูกต้อง ใช้ --http-allow-origin \"*\" ในการตั้งค่า {{type}}",
+  "unknownError": "ข้อผิดพลาดที่ไม่รู้จักใน {{type}} NODE",
+  "validatorInfo": "เกิดข้อผิดพลาดในการโหลดข้อมูล Validator",
+  "missingValidatorData": "ข้อมูล Validator Node ไม่ถูกต้อง",
+  "apiTokenRequired": "จำเป็นต้องใช้ Api Token",
+  "invalidApiToken": "Api Token ไม่ถูกต้อง",
+  "beaconDataRequired": "Beacon Node จำเป็นต้องใช้โปรโตคอล, ที่อยู่ และพอร์ต",
+  "validatorDataRequired": "Validator Node จำเป็นต้องใช้โปรโตคอล, ที่อยู่ และพอร์ต",
+  "unableToSignExit": "ไม่สามารถลงนามข้อความการออกจากระบบโดยสมัครใจได้",
+  "invalidExit": "การออกจากระบบโดยสมัครใจไม่ถูกต้อง",
+  "userName": {
+    "maxLength": "ชื่อผู้ใช้ต้องไม่เกิน 14 ตัวอักษร",
+    "required": "ต้องระบุชื่อผู้ใช้"
+  }
+},
+"settings": {
+  "general": "ทั่วไป",
+  "currentVersion": "เวอร์ชันปัจจุบัน",
+  "developedBy": "พัฒนาและดูแลโดย",
+  "updates": {
+    "nonAvailable": "ไม่มีการอัปเดตที่พร้อมใช้งาน"
+  },
+  "links": {
+    "website": "เว็บไซต์",
+    "documentation": "เอกสารประกอบ"
+  }
+},
+"validatorManagement": {
+  "search": "ค้นหา",
+  "title": "การจัดการ Validator",
+  "overview": "ภาพรวม",
+  "day": "วัน",
+  "effectiveness": {
+    "targetVote": "การโหวตเป้าหมาย",
+    "headVote": "การโหวตหัวข้อ",
+    "overallTargetDescription": "ความแม่นยำเฉลี่ยของการโหวตการยืนยันของ validator ทั้งหมดที่แสดงถึงบล็อกแรกในช่วงปัจจุบันที่ validator เห็น",
+    "overallHeadHitDescription": "ความแม่นยำเฉลี่ยของการโหวตของ validator ที่แสดงถึงบล็อกที่ validator เห็นที่หัวของ chain",
+    "targetDescription": "ความแม่นยำเฉลี่ยของการโหวตการยืนยันของ validator ที่เลือกแสดงถึงบล็อกแรกในช่วงปัจจุบันที่ validator เห็น",
+    "headHitDescription": "ความแม่นยำเฉลี่ยของการโหวตของ validator ที่เลือกแสดงถึงบล็อกที่ validator เห็นที่หัวของ chain"
+  },
+  "summary": {
+    "active": "ใช้งาน",
+    "totalBalance": "ยอดรวมทั้งหมด",
+    "locked": "ถูกล็อก",
+    "totalIncome": "รายได้รวม",
+    "queue": "คิว",
+    "networkValidators": "Validators ในเครือข่าย",
+    "avgEffectiveness": "ความมีประสิทธิภาพเฉลี่ย"
+  },
+  "actions": {
+    "deposit": "ฝาก",
+    "add": "เพิ่ม",
+    "depositFunds": "ฝากเงิน",
+    "backupKeys": "สำรองกุญแจ",
+    "stopValidator": "หยุด Validator",
+    "exportValidator": "ส่งออก Validator",
+    "exitValidator": "ออกจาก Validator",
+    "withdrawValidator": "ถอน Validator"
+  },
+  "details": {
+    "validatorBalance": "ยอดเงิน Validator",
+    "index": "ดัชนี",
+    "balance": "ยอดเงิน",
+    "slotsBehind": "ช่องที่ตามหลัง",
+    "exploreBeaconChai": "สำรวจเพิ่มเติมที่ dashboard ของ beaconchai.in",
+    "explore": "สำรวจ",
+    "status": "สถานะ",
+    "deposit": "ฝาก",
+    "pending": "รอดำเนินการ",
+    "active": "ใช้งาน",
+    "exit": "ออก"
+  }
+},
+"alert": {
+  "type": {
+    "nodeValidator": "Node / Validator",
+    "network": "เครือข่าย"
+  },
+  "natClosedStatus": "{{type}}: สถานะ NAT ถูกปิด",
+  "peerCountLow": "{{type}}: จำนวน Peer ต่ำมาก",
+  "peerCountMedium": "{{type}}: จำนวน Peer อยู่ในระดับต่ำ"
+},
+"tooltip": {
+  "ethEstimate": "การประมาณรายได้ ETH สำหรับ {{time}} ของทุก validator ภายใต้เครือข่ายและสภาวะอุปกรณ์ปัจจุบัน",
+  "ethTotal": "รายได้ ETH รวมของทุก validator",
+  "fiatEstimate": "การประมาณรายได้ {{time}} ที่แปลงเป็นสกุลเงิน fiat ตามอัตราแลกเปลี่ยนที่เลือก",
+  "fiatTotal": "รายได้รวมที่แปลงเป็นสกุลเงิน fiat ตามอัตราแลกเปลี่ยนที่เลือก",
+  "annualApr": "การประมาณอัตราผลตอบแทนประจำปีรวม"
+},
+"networkErrorModal": {
+  "title": "ข้อผิดพลาดของเครือข่าย",
+  "beaconAndValidator": "Beacon Node และ Validator Client",
+  "beaconNode": "Beacon Node",
+  "validatorClient": "Validator Client",
+  "affectedNetworks": "Siren ไม่สามารถรักษาการเชื่อมต่อกับ <0>{{network}}</0> ที่กำหนดได้",
+  "reconfigureOrContact": "โปรดตรวจสอบและอัปเดตการตั้งค่าการกำหนดค่า หากปัญหานี้ยังคงอยู่ โปรดติดต่อทีมงานของเราที่ <0>discord</0>"
+},
+"sessionConfiguration": {
+  "prevStep": "การตั้งค่า",
+  "currentStep": "การยืนยันเซสชัน",
+  "title": "การยืนยันเซสชัน",
+  "description": "ปกป้องบัญชีของคุณด้วยรหัสผ่านเซสชันที่เลือกใช้ ซึ่งเพิ่มชั้นความปลอดภัยให้กับบัญชีของคุณ เพื่อให้มั่นใจว่ามีเพียงคุณเท่านั้นที่สามารถเข้าถึงบัญชีของคุณได้ แม้ว่าจะมีคนสามารถเข้าถึงอุปกรณ์ของคุณได้ หากไม่มีการตั้งรหัสผ่าน Siren จะใช้ api-token ที่คุณตั้งค่าในการตั้งค่าการกำหนดค่าโดยอัตโนมัติ"
+},
+"sessionAuthModal": {
+  "title": "การยืนยันเซสชัน",
+  "passwordPrompt": "เพื่อความปลอดภัยของบัญชีของคุณ การยืนยันรหัสผ่านจำเป็นต้องดำเนินการตามขั้นตอนนี้ โปรดยืนยันรหัสผ่านของคุณเพื่อดำเนินการ โปรดทราบว่าคุณมีเพียงสามครั้งในการลอง",
+  "failedResponse": "การยืนยันล้มเหลว โปรดกลับไปที่การตั้งค่าการกำหนดค่าเพื่อลองป้อนข้อมูลรับรองของ validator อีกครั้ง",
+  "configSettings": "การตั้งค่าการกำหนดค่า"
+},
+"blsExecution": {
+  "tooltip": "Validator ต้องการการแปลงจาก BLS เป็น Execution address",
+  "warning": {
+    "text": "Validator นี้กำลังใช้ BLS withdrawal credentials เก่าซึ่งไม่สามารถรับการถอนเงินบางส่วนตามปกติและไม่สามารถออกได้ โปรดแปลงที่อยู่การถอนเงินไปยังที่อยู่ Execution",
+    "learnMore": "เรียนรู้เพิ่มเติมเกี่ยวกับการแปลงจาก BLS เป็น Execution ที่นี่",
+    "cta": "แปลงที่อยู่การถอนเงิน",
+    "processingText": "การเปลี่ยนแปลง BLS execution ได้รับการประมวลผลแล้วแต่จะใช้เวลาสักครู่เพื่อให้ Beacon Node ดำเนินการ โปรดรอจนกว่า validator จะสะท้อนสถานะการเปลี่ยนแปลง ขอบคุณที่เข้าใจ"
+  },
+  "modal": {
+    "title": "การเปลี่ยนแปลงจาก BLS เป็น Execution",
+    "subTitle": "อัปเดต Validator <0></0>",
+    "cta": "การเปลี่ยนแปลง Execution",
+    "description": "โปรดป้อน JSON การเปลี่ยนแปลง BLS ของคุณ การส่งคำขอนี้จะทำให้ Beacon Node ฝากรางวัลบางส่วนโดยสมัครใจและดำเนินการออก validator ไปยังที่อยู่การถอนเงินที่กำหนด การกระทำนี้เป็นเรื่องละเอียดอ่อน โปรดใช้ความระมัดระวังและตรวจสอบให้แน่ใจว่าคุณสามารถเข้าถึงที่อยู่การถอนเงินของคุณก่อนดำเนินการ",
+    "followLink": "สำหรับข้อมูลเพิ่มเติม โปรดติดตาม <0>ลิงก์</0>"
+  }
+},
+"basicValidatorMetrics": {
+  "ethRate": "อัตรา JBC",
+  "validator": "Validator",
+  "balance": "ยอดคงเหลือ"
+},
+"validatorInfoHeader": {
+  "viewOnBeaconChain": "ดูบน BeaconChai.in",
+  "validatorBalance": "ยอดคงเหลือของ Validator <0></0>"
+},
+"validatorExit": {
+  "exit": "ออกจาก Validator",
+  "management": "การจัดการ Validator <0></0>",
+  "warning": "การกระทำนี้ไม่สามารถย้อนกลับได้และจะทำให้ validator ของคุณถูกล็อกอยู่ในสถานะออกอยู่ในระหว่างรอการถอนเงิน โดยไม่สามารถเริ่มต้น validator ใหม่ได้ การกระทำนี้อาจใช้เวลาสักครู่ โปรดรอจนกว่าค่าสถานะของ validator จะสะท้อนการเปลี่ยนแปลง",
+  "learnMore": "เรียนรู้เพิ่มเติมเกี่ยวกับสถานะของ validator ในแต่ละเฟสได้ที่นี่",
+  "iAccept": "ฉันเข้าใจและยอมรับ"
+},
+"logs": {
+  "title": "บันทึกของ Lighthouse",
+  "service": "บริการ",
+  "autoRefresh": "รีเฟรชอัตโนมัติ",
+  "searchLogs": "ค้นหาบันทึก",
+  "noLogsFound": "ไม่พบบันทึก",
+  "tooltips": {
+    "combinedCritical": "อัตราการบันทึกที่ระดับวิกฤตของ beacon และ validator รวมกันในแต่ละชั่วโมง",
+    "validatorCritical": "อัตราการบันทึกที่ระดับวิกฤตของ validator ในแต่ละชั่วโมง",
+    "beaconCritical": "อัตราการบันทึกที่ระดับวิกฤตของ beacon ในแต่ละชั่วโมง",
+    "combinedError": "อัตราการบันทึกที่ระดับข้อผิดพลาดของ beacon และ validator รวมกันในแต่ละชั่วโมง",
+    "validatorError": "อัตราการบันทึกที่ระดับข้อผิดพลาดของ validator ในแต่ละชั่วโมง",
+    "beaconError": "อัตราการบันทึกที่ระดับข้อผิดพลาดของ beacon ในแต่ละชั่วโมง",
+    "combinedWarning": "อัตราการบันทึกที่ระดับคำเตือนของ beacon และ validator รวมกันในแต่ละชั่วโมง",
+    "validatorWarning": "อัตราการบันทึกที่ระดับคำเตือนของ validator ในแต่ละชั่วโมง",
+    "beaconWarning": "อัตราการบันทึกที่ระดับคำเตือนของ beacon ในแต่ละชั่วโมง"
+  }
+},
+"validatorEdit": {
+  "title": "แก้ไข Validator",
+  "label": "ชื่อ Validator",
+  "cta": "อัพเดต Validator",
+  "successUpdate": "อัพเดตชื่อ Validator เรียบร้อยแล้ว!",
+  "nameRequired": "ชื่อจำเป็นต้องระบุ",
+  "nameLimit": "ชื่อไม่สามารถยาวเกิน 19 ตัวอักษร",
+  "graffiti": {
+    "unexpectedError": "เกิดข้อผิดพลาดที่ไม่คาดคิดระหว่างการอัพเดต graffiti กรุณาลองใหม่อีกครั้ง",
+    "successUpdate": "อัพเดต graffiti ของ Validator เรียบร้อยแล้ว",
+    "errorUpdate": "ไม่สามารถอัพเดต graffiti ได้ กรุณาตรวจสอบว่าไม่ได้ตั้งค่า flag \"--graffiti-file\""
+  }
+},
+"deviceSelect": {
+  "label": "เลือกอุปกรณ์",
+  "confirmText": "คุณแน่ใจหรือไม่ว่าต้องการลบอุปกรณ์ <0>{{target}}</0>?",
+  "confirmCta": "ลบอุปกรณ์",
+  "addDevice": "เพิ่มอุปกรณ์",
+  "selectDevice": "เลือกอุปกรณ์ที่เก็บไว้"
+},
+"alertMessages": {
+  "all": "ทั้งหมด",
+  "severe": "ร้ายแรง",
+  "warning": "คำเตือน",
+  "fair": "ปานกลาง",
+  "beaconNotSync": "Beacon Node ไม่ซิงค์",
+  "ethClientNotSync": "Ethereum Client ไม่ซิงค์",
+  "excessiveWarningLogs": "ตรวจพบจำนวนคำเตือนที่ไม่ปกติ",
+  "critLog": "ข้อผิดพลาดร้ายแรง: {{message}}",
+  "errorLog": "ข้อผิดพลาด: {{message}}"
+}
+}

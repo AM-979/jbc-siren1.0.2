@@ -57,7 +57,7 @@ const ValidatorInfoHeader: FC<ValidatorInfoHeaderProps> = ({ validator }) => {
                   <br />
                 </Trans>
               </Typography>
-              <Typography>{balance.toFixed(2)} ETH</Typography>
+              <Typography>{balance.toFixed(2)} JBC</Typography>
             </div>
           </div>
         </div>

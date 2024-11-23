@@ -17,7 +17,7 @@ const Wallet: FC<WalletProps> = ({ className = '', borderStyle = 'border' }) => 
       <WalletDefault className='h-10 w-10 rounded-full' />
       <div>
         <Typography isBold type='text-tiny' family='font-roboto'>
-          MAINNET
+          JIBCHAIN
         </Typography>
         <Typography isBold type='text-caption1' color='text-dark500' family='font-roboto'>
           0xAddress

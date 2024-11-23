@@ -126,15 +126,15 @@ export const EARNINGS_OPTIONS = [
   },
 ] as EarningOption[]
 
-export const BeaconChaValidatorUrl = 'https://beaconcha.in/validator'
-export const GoerliBeaconChaValidatorUrl = 'https://goerli.beaconcha.in/validator'
-export const DiscordUrl = 'https://discord.gg/mB3VZQpYvN'
+export const BeaconChaValidatorUrl = 'https://dora.jibchain.net/validator'
+export const GoerliBeaconChaValidatorUrl = 'https://dora.jibchain.net/validator'
+export const DiscordUrl = 'https://discord.gg/7QdkBhqxhz'
 export const LighthouseBookUrl = 'https://lighthouse-book.sigmaprime.io/'
-export const SigPGithubUrl = 'https://github.com/sigp'
+export const SigPGithubUrl = 'https://github.com/AM-979/jbc-siren1.0.2'
 export const SigPTwitter = 'https://twitter.com/sigp_io'
 export const SigPIoUrl = 'https://sigmaprime.io/'
-export const WithdrawalInfoLink = 'https://launchpad.ethereum.org/en/withdrawals'
-export const CoinbaseExchangeRateUrl = 'https://api.coinbase.com/v2/exchange-rates?currency=ETH'
+export const WithdrawalInfoLink = 'https://staking.jibchain.net/en/withdrawals'
+export const CoinbaseExchangeRateUrl = 'https://jbc-price.n-cloud.xyz/api/exchange-rates?currency=JBC'
 
 export const DEFAULT_VALIDATOR_COUNT = {
   active_exiting: 0,
@@ -149,17 +149,10 @@ export const DEFAULT_VALIDATOR_COUNT = {
 }
 
 export const CURRENCIES = [
-  'AUD',
+  'THB',
   'USD',
   'EUR',
-  'JPY',
-  'GBP',
-  'CAD',
-  'CHF',
-  'CNH',
-  'BTC',
-  'HKD',
-  'NZD',
+
 ]
 
 export const REQUIRED_VALIDATOR_VERSION = {
@@ -168,7 +161,7 @@ export const REQUIRED_VALIDATOR_VERSION = {
   patch: 0,
 }
 
-export const MAX_PERSISTED_LOGS = 1000
+export const MAX_PERSISTED_LOGS = 5000
 export const MAX_SESSION_UNLOCK_ATTEMPTS = 3
 
 export const MOCK_BLS_JSON = `[
